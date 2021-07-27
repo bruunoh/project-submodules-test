@@ -1,0 +1,4 @@
+[submodule "module-home-test"]
+	path = module-home-test
+	url = https://github.com/bruunoh/module-home-test.git
+	branch = master

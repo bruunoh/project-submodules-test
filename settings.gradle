@@ -1,2 +1,5 @@
 rootProject.name = "Project Submodules Test"
 include ':app'
+
+include ':home'
+project(':home').projectDir = new File(settingsDir, '/module-home-test')
