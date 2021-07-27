@@ -2,3 +2,7 @@
 	path = module-home-test
 	url = https://github.com/bruunoh/module-home-test.git
 	branch = master
+[submodule "module-componentes-test"]
+	path = module-componentes-test
+	url = https://github.com/bruunoh/module-componentes-test.git
+	branch = master
