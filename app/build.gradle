@@ -54,7 +54,6 @@ android {
 }
 
 dependencies {
-
     implementation project(':componentes')
     implementation project(':home')
 
