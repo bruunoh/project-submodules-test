@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "573960798902",
+    "project_id": "project-submodules-test",
+    "storage_bucket": "project-submodules-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573960798902:android:f1a98b7de5227600429c17",
+        "android_client_info": {
+          "package_name": "br.com.cardoso.bruno.projectsubmodulestest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573960798902-5g7vp1s2nhc3e9peodfljc27274g0bfm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLdcOFDLFUoSiRVCsS0aEUA46VLDxoIwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573960798902-5g7vp1s2nhc3e9peodfljc27274g0bfm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
