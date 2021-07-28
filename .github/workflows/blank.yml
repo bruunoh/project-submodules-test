@@ -18,9 +18,6 @@ jobs:
       - name: Unit tests
         run: bash ./gradlew test --stacktrace
 
-      - name: Run Tests
-        run: ./gradlew test
-
       - name: Build Project
         run: ./gradlew assemble
 
