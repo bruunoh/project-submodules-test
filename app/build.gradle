@@ -39,18 +39,18 @@ android {
         jvmTarget = '1.8'
     }
 
-    productFlavors {
-        flavorDimensions "store"
-
-        shoes {
-            dimension "store"
-            applicationIdSuffix ".shoes"
-        }
-        outfits {
-            dimension "store"
-            applicationIdSuffix ".outfits"
-        }
-    }
+//    productFlavors {
+//        flavorDimensions "store"
+//
+//        shoes {
+//            dimension "store"
+//            applicationIdSuffix ".shoes"
+//        }
+//        outfits {
+//            dimension "store"
+//            applicationIdSuffix ".outfits"
+//        }
+//    }
 }
 
 dependencies {
