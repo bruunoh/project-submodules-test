@@ -44,11 +44,11 @@ android {
 
         shoes {
             dimension "store"
-            applicationIdSuffix = ".shoes"
+            applicationIdSuffix ".shoes"
         }
         outfits {
             dimension "store"
-            applicationIdSuffix = ".outfits"
+            applicationIdSuffix ".outfits"
         }
     }
 }
