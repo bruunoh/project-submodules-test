@@ -3,6 +3,6 @@ rootProject.name = "Project Submodules Test"
 
 include ':home'
 project(':home').projectDir = new File(settingsDir, '/module-home-test/home')
-
-include ':componentes'
-project(':componentes').projectDir = new File(settingsDir, '/module-componentes-test/componentes')
+//
+//include ':componentes'
+//project(':componentes').projectDir = new File(settingsDir, '/module-componentes-test/componentes')

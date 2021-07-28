@@ -54,7 +54,7 @@ android {
 }
 
 dependencies {
-    implementation project(':componentes')
+//    implementation project(':componentes')
     implementation project(':home')
 
     implementation 'com.google.firebase:firebase-bom:28.3.0'
