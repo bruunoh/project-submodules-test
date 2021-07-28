@@ -26,9 +26,6 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 1.8
-
-      - name: Unit tests
-        run: bash ./gradlew test --stacktrace
       
       - name: Run Kotlin Linter
         run: ./gradlew ktlintStagingDebugCheck
