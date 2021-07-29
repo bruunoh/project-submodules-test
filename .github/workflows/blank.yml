@@ -13,16 +13,20 @@ jobs:
         id: modules
         with:
           filters: .github/config/file_filter_config.yml
+
       - name: Set lint gradle task
         id: gradle_task_name
         env:
           changed_modules: ${{ toJson(steps.modules.outputs.changes) }}
         shell: pwsh
         run: .\.github\scripts\gradle-task-setter.ps1
+
       - name: Run lint
         run: ./gradlew ${{ steps.gradle_task_name.outputs.gradleTask }} --continue
+
       - name: Create Checkstyle Lint Report
         if: ${{ failure() }}
         run: ./gradlew createCheckstyleLintReport -PgithubWorkspace=$GITHUB_WORKSPACE
+
       - name: Report with Review Dog
         run: ...
